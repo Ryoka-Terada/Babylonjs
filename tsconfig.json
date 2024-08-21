@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": ["babylonjs", "babylonjs-gui"],
+    "target": "es6",
+    "module": "commonjs",
+    "noResolve": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    "lib": ["dom", "es2020", "es6"],
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "baseUrl": "."
+  },
+  "include": ["./src/**/*.ts"]
+}
